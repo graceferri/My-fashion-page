@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Discover the latest trending clothes and fashion styles. Shop the hottest looks in the fashion world right now.">
-    <meta name="author" content="Fashion Trends">
-    <title>Trending Fashion</title>
+    <meta name="description" content="Explore the latest fashion trends with exciting collections, stylish outfits, and fresh new arrivals.">
+    <meta name="author" content="Grace">
+    <title>Fashion Trending</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -29,9 +29,9 @@
     <!-- Hero Section -->
     <section id="hero">
         <div class="hero-content">
-            <h2>Stay Ahead in Fashion</h2>
-            <p>Explore the latest trends and shop the most stylish outfits for every occasion.</p>
-            <a href="#new-arrivals" class="btn">Discover Now</a>
+            <h2>Welcome to the Trendy World of Fashion</h2>
+            <p>Discover the hottest fashion items and stay ahead of the trends!</p>
+            <a href="#new-arrivals" class="btn">Shop Now</a>
         </div>
     </section>
 
@@ -40,19 +40,19 @@
         <h2>New Arrivals</h2>
         <div class="product-grid">
             <div class="product-item">
-                <img src="https://via.placeholder.com/400" alt="New Arrival 1">
-                <h3>Trendy Summer Dress</h3>
-                <p>Elegant and breezy, perfect for the hot season.</p>
+                <img src="https://via.placeholder.com/400" alt="Summer Dress">
+                <h3>Chic Summer Dress</h3>
+                <p>Light and breezy for your perfect summer look.</p>
             </div>
             <div class="product-item">
-                <img src="https://via.placeholder.com/400" alt="New Arrival 2">
-                <h3>Casual Chic T-shirt</h3>
-                <p>Comfortable and stylish for everyday wear.</p>
+                <img src="https://via.placeholder.com/400" alt="Casual T-shirt">
+                <h3>Casual Cool Tee</h3>
+                <p>Comfortable and stylish, perfect for a casual day out.</p>
             </div>
             <div class="product-item">
-                <img src="https://via.placeholder.com/400" alt="New Arrival 3">
-                <h3>Smart Evening Gown</h3>
-                <p>For a classy night out, perfect for special occasions.</p>
+                <img src="https://via.placeholder.com/400" alt="Evening Gown">
+                <h3>Elegant Evening Gown</h3>
+                <p>Turn heads with this stunning and elegant gown.</p>
             </div>
         </div>
     </section>
@@ -62,14 +62,14 @@
         <h2>Trending Collections</h2>
         <div class="collection-grid">
             <div class="collection-item">
-                <img src="https://via.placeholder.com/400" alt="Collection 1">
-                <h3>Summer Collection</h3>
-                <p>Chill vibes and bright colors for a fun summer.</p>
+                <img src="https://via.placeholder.com/400" alt="Spring Collection">
+                <h3>Spring Collection</h3>
+                <p>Floral designs and pastel shades perfect for the season.</p>
             </div>
             <div class="collection-item">
-                <img src="https://via.placeholder.com/400" alt="Collection 2">
-                <h3>Winter Warmth</h3>
-                <p>Stay stylish and warm with this exclusive winter collection.</p>
+                <img src="https://via.placeholder.com/400" alt="Autumn Collection">
+                <h3>Autumn Vibes</h3>
+                <p>Warm tones and cozy fabrics for the fall season.</p>
             </div>
         </div>
     </section>
@@ -77,7 +77,7 @@
     <!-- About Section -->
     <section id="about">
         <h2>About Us</h2>
-        <p>Trending Fashion is your go-to online destination for the latest trends. We handpick the most stylish outfits, bringing you the best of fashion every season. Stay ahead of the curve with the newest looks in the fashion world.</p>
+        <p>At Trending Fashion, we bring you the latest and most stylish clothing trends for every season. Our mission is to help you feel confident, stylish, and ahead of the curve!</p>
     </section>
 
     <!-- Contact Section -->
@@ -97,6 +97,14 @@
         </form>
     </section>
 
+    <!-- Creator Section -->
+    <section id="creator">
+        <h2>About the Creator</h2>
+        <div class="creator-box">
+            <p>This website was created by <strong>Grace</strong>, a 15-year-old passionate web designer. Grace loves creating websites in the most creative and unique ways possible!</p>
+        </div>
+    </section>
+
     <!-- Footer Section -->
     <footer>
         <p>&copy; 2026 Trending Fashion. All rights reserved.</p>
@@ -104,4 +112,5 @@
 
 </body>
 </html>
+
 
