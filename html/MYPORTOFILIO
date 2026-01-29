@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <!-- Header Section -->
+
     <header>
         <div class="logo">
             <h1>Trending Fashion</h1>
@@ -26,7 +26,7 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
+
     <section id="hero">
         <div class="hero-content">
             <h2>Welcome to the Trendy World of Fashion</h2>
@@ -35,7 +35,6 @@
         </div>
     </section>
 
-    <!-- New Arrivals Section -->
     <section id="new-arrivals">
         <h2>New Arrivals</h2>
         <div class="product-grid">
@@ -57,7 +56,7 @@
         </div>
     </section>
 
-    <!-- Trending Collections Section -->
+ 
     <section id="collections">
         <h2>Trending Collections</h2>
         <div class="collection-grid">
@@ -74,13 +73,12 @@
         </div>
     </section>
 
-    <!-- About Section -->
     <section id="about">
         <h2>About Us</h2>
         <p>At Trending Fashion, we bring you the latest and most stylish clothing trends for every season. Our mission is to help you feel confident, stylish, and ahead of the curve!</p>
     </section>
 
-    <!-- Contact Section -->
+
     <section id="contact">
         <h2>Contact Us</h2>
         <form>
@@ -97,7 +95,6 @@
         </form>
     </section>
 
-    <!-- Creator Section -->
     <section id="creator">
         <h2>About the Creator</h2>
         <div class="creator-box">
@@ -105,7 +102,6 @@
         </div>
     </section>
 
-    <!-- Footer Section -->
     <footer>
         <p>&copy; 2026 Trending Fashion. All rights reserved.</p>
     </footer>
