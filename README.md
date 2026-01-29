@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A professional fashion website showcasing the latest trends, styles, and collections.">
+    <meta name="author" content="Fashion Designer">
+    <title>Fashion Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Fashion Hub</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section (Main Banner) -->
+    <section id="hero">
+        <div class="hero-text">
+            <h2>Explore the Latest Trends</h2>
+            <p>Your one-stop destination for all things fashion. Discover new styles, exclusive collections, and more!</p>
+            <a href="#collections" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Collections Section -->
+    <section id="collections">
+        <h2>Our Collections</h2>
+        <div class="collection-grid">
+            <div class="collection-item">
+                <img src="https://via.placeholder.com/400" alt="Fashion Collection 1">
+                <h3>Summer Collection</h3>
+                <p>Elegant and breezy designs perfect for summer.</p>
+            </div>
+            <div class="collection-item">
+                <img src="https://via.placeholder.com/400" alt="Fashion Collection 2">
+                <h3>Winter Collection</h3>
+                <p>Stay warm and stylish with our latest winter arrivals.</p>
+            </div>
+            <div class="collection-item">
+                <img src="https://via.placeholder.com/400" alt="Fashion Collection 3">
+                <h3>Evening Wear</h3>
+                <p>Luxury dresses and accessories for your special evening.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Fashion Hub is a leading fashion destination dedicated to bringing you the latest trends and timeless styles. We curate the finest clothing collections designed to suit all tastes and occasions. Our mission is to empower individuals through fashion.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 Fashion Hub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
