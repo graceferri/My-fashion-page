@@ -1,278 +1,48 @@
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore the latest fashion trends with exciting collections, stylish outfits, and fresh new arrivals.">
-    <meta name="author" content="Grace">
-    <title>Fashion Trending</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Midnight Thoughts</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header>
+    <h1>🌙 Midnight Thoughts</h1>
+    <p>A quiet corner of the internet</p>
+  </header>
 
-
-    <header>
-        <div class="logo">
-            <h1>Trending Fashion</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#new-arrivals">New Arrivals</a></li>
-                <li><a href="#collections">Collections</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-
-    <section id="hero">
-        <div class="hero-content">
-            <h2>Welcome to the Trendy World of Fashion</h2>
-            <p>Discover the hottest fashion items and stay ahead of the trends!</p>
-            <a href="#new-arrivals" class="btn">Shop Now</a>
-        </div>
+  <main>
+    <section class="card">
+      <h2>About</h2>
+      <p>
+        This is a simple website built with pure HTML and CSS and hosted on
+        GitHub Pages. No frameworks. No stress.
+      </p>
     </section>
 
-    <section id="new-arrivals">
-        <h2>New Arrivals</h2>
-        <div class="product-grid">
-            <div class="product-item">
-                <img src="https://via.placeholder.com/400" alt="Summer Dress">
-                <h3>Chic Summer Dress</h3>
-                <p>Light and breezy for your perfect summer look.</p>
-            </div>
-            <div class="product-item">
-                <img src="https://via.placeholder.com/400" alt="Casual T-shirt">
-                <h3>Casual Cool Tee</h3>
-                <p>Comfortable and stylish, perfect for a casual day out.</p>
-            </div>
-            <div class="product-item">
-                <img src="https://via.placeholder.com/400" alt="Evening Gown">
-                <h3>Elegant Evening Gown</h3>
-                <p>Turn heads with this stunning and elegant gown.</p>
-            </div>
-        </div>
+    <section class="card">
+      <h2>Why this exists</h2>
+      <ul>
+        <li>To learn web development</li>
+        <li>To share ideas</li>
+        <li>Because building things is fun</li>
+      </ul>
     </section>
 
- 
-    <section id="collections">
-        <h2>Trending Collections</h2>
-        <div class="collection-grid">
-            <div class="collection-item">
-                <img src="https://via.placeholder.com/400" alt="Spring Collection">
-                <h3>Spring Collection</h3>
-                <p>Floral designs and pastel shades perfect for the season.</p>
-            </div>
-            <div class="collection-item">
-                <img src="https://via.placeholder.com/400" alt="Autumn Collection">
-                <h3>Autumn Vibes</h3>
-                <p>Warm tones and cozy fabrics for the fall season.</p>
-            </div>
-        </div>
+    <section class="card">
+      <h2>Contact</h2>
+      <p>
+        Find me on GitHub or turn this into your own portfolio, blog, or project
+        page.
+      </p>
     </section>
+  </main>
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p>At Trending Fashion, we bring you the latest and most stylish clothing trends for every season. Our mission is to help you feel confident, stylish, and ahead of the curve!</p>
-    </section>
-
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-
-    <section id="creator">
-        <h2>About the Creator</h2>
-        <div class="creator-box">
-            <p>This website was created by <strong>Grace</strong>, a 15-year-old passionate web designer. Grace loves creating websites in the most creative and unique ways possible!</p>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2026 Trending Fashion. All rights reserved.</p>
-    </footer>
-
+  <footer>
+    <p>© 2026 • Built with HTML & CSS</p>
+  </footer>
 </body>
 </html>
-
-/* General Styles */
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
-    color: #333;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-/* Header Styles */
-header {
-    background-color: #1a1a1a;
-    color: white;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header .logo h1 {
-    font-size: 2rem;
-}
-
-header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-header nav ul li a {
-    color: white;
-    font-size: 1.1rem;
-    text-transform: uppercase;
-}
-
-header nav ul li a:hover {
-    color: #9b59b6; /* Purple color on hover */
-}
-
-/* Hero Section */
-#hero {
-    background-image: url('https://via.placeholder.com/1500x800');
-    background-size: cover;
-    background-position: center;
-    height: 70vh;
-    color: white;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-#hero h2 {
-    font-size: 3rem;
-    margin: 0;
-}
-
-#hero p {
-    font-size: 1.2rem;
-}
-
-#hero .btn {
-    padding: 12px 30px;
-    background-color: #9b59b6; /* Purple button */
-    color: white;
-    font-size: 1.1rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#hero .btn:hover {
-    background-color: #8e44ad; /* Darker purple */
-}
-
-/* Product Section */
-.product-grid {
-    display: flex;
-    justify-content: space-around;
-    gap: 30px;
-    margin: 40px 0;
-}
-
-.product-item {
-    width: 30%;
-    background-color: white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 15px;
-    text-align: center;
-    border-radius: 8px;
-}
-
-.product-item img {
-    width: 100%;
-    border-radius: 8px;
-}
-
-.product-item h3 {
-    font-size: 1.5rem;
-    margin-top: 15px;
-}
-
-.product-item p {
-    color: #777;
-}
-
-/* Trending Collections */
-.collection-grid {
-    display: flex;
-    justify-content: space-around;
-    gap: 30px;
-    margin: 40px 0;
-}
-
-.collection-item {
-    width: 45%;
-    background-color: white;
-    padding: 15px;
-    text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
-
-.collection-item img {
-    width: 100%;
-    border-radius: 8px;
-}
-
-.collection-item h3 {autmn collection.jpg   vvfv
-    font-size: 1.5rem;
-    margin-top: 15px;
-}
-
-/* About Section */
-#about {
-    padding: 60px 20px;
-    text-align: center;
-    background-color: #fff;
-}
-
-/* Creator Section */
-#creator {
-    padding: 40px 20px;
-    text-align: center;
-    background-color: #9b59b6; /* Purple background */
-    color: white;
-}
-
-#creator .creator-box {
-    background-color: #1a1a1a;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-/* Footer Section */
-footer {
-    background-color: #1a1a1a;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
 
