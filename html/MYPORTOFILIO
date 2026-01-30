@@ -84,7 +84,6 @@
         <form>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
-
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
 
@@ -243,7 +242,7 @@ header nav ul li a:hover {
     border-radius: 8px;
 }
 
-.collection-item h3 {
+.collection-item h3 {autmn collection.jpg   vvfv
     font-size: 1.5rem;
     margin-top: 15px;
 }
